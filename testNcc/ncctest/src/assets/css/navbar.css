@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #191718;
+    width: 150px;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.navbar__list>li{
+    color: #AAAAAA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 0 14px 16px;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.navbar__list>li:hover{
+    color: #fff;
+    background-color: #5C5C5C;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+}
